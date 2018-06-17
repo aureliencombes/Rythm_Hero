@@ -1,0 +1,101 @@
+body
+{
+    background: #fab1a0;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container
+{
+    width: 960px;
+    background: #f7f1e3;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.gameMenu
+{
+    background: #fab1a0;
+    color: #f7f1e3;
+    width: 30%;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    border-radius: 10px;
+    box-shadow: 0px 3px 0px #ba8478;
+}
+
+    .gameMenu > h1
+    {
+        padding: 30px 0 0 0;
+        font-size: 2em;
+        font-family: 'Luckiest Guy', cursive;    
+        text-align: center;
+    }
+
+    .gameMenu > p
+    {
+        padding: 25px;
+        text-align: center;
+    }
+
+    .gameMenu .song
+    {
+        padding: 15px;
+        margin: 10px;
+        background: #ff7675;
+        cursor: pointer;
+        border-radius: 10px;
+        box-shadow: 0px 3px 0px #ce6060;
+    }
+
+    .gameMenu .song p
+    {
+        padding: 5px;
+    }
+
+    .gameMenu .s2, .gameMenu .s3
+    {
+        background: #d0cec2;
+        color: #e3e3e3;
+        box-shadow: 0px 3px 0px #a09f99;
+    }
+    
+
+
+.finalScore
+{
+    background: #fab1a0;
+    color: #f7f1e3;
+    width: 30%;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    border-radius: 10px;
+    box-shadow: 0px 3px 0px #ba8478;
+    text-align: center;
+    height: 250px;
+    display: none;
+}
+
+    .finalScore h1
+    {
+        padding: 30px 0 0 0;
+        font-size: 2em;
+        font-family: 'Luckiest Guy', cursive;    
+        margin: 30px;
+    }
+
+    .finalScore a
+    {
+        padding: 15px;
+        text-decoration: none;
+        font-size: 2em;
+        background: #ff7675;
+        box-shadow: 0px 3px 0px #ce6060;
+        color: #f7f1e3;
+        margin: 30px;
+        border-radius: 10px;
+    }

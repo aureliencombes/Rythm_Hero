@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rythm Hero</title>
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">    
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="gameMenu">
+        <h1>Rythm Hero</h1>
+        <p>Chose your song</p>
+        <div class="song s1">
+            <p>Kong - Bonobo</p>
+            <p>Difficulty : 1</p>
+        </div>
+        <div class="song s2">
+            <p>Delta - C2C</p>
+            <p>Difficulty : 2 (Score x2)</p>
+        </div>
+        <div class="song s3">
+            <p>TURBO KILLER - Carpenter Brut</p>
+            <p>Difficulty : 3 (Score x3)</p>
+        </div>    
+    </div>
+
+    <div class="container">
+        <canvas class="canvas"></canvas>
+    </div>
+    <audio class="song1" src="assets/medias/bonobo-kong.mp3">
+        Your browser doesn't support video API
+    </audio>
+
+    <div class="finalScore">
+    </div>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/song.js"></script>
+</body>
+</html>
